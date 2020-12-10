@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ThreeClicks.gogym">
+    package="com.fitSecret.fitSecretMobileApp">
 
     <application
         android:allowBackup="true"
@@ -9,50 +9,50 @@
         android:roundIcon="@drawable/ic_fitsecret_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddExpenseActivity"></activity>
-        <activity android:name=".AddExerciseCategoryActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddExpenseActivity"></activity>
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddExerciseCategoryActivity" />
         <activity
-            android:name=".ExerciseCategoryActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.ExerciseCategoryActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".SmsHistoryActivity" />
-        <activity android:name=".AddDietActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.SmsHistoryActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddDietActivity" />
         <activity
-            android:name=".ManageDietingActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.ManageDietingActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AddSmsTemplateActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddSmsTemplateActivity" />
         <activity
-            android:name=".SmsTemplateActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ManageExpensesActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AddMeasurementActivity" />
-        <activity
-            android:name=".ManageMeasurementActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AddEnquiryActivity" />
-        <activity android:name=".AddEnquiryType" />
-        <activity android:name=".AddCustomerCategoryActivity" />
-        <activity
-            android:name=".ManageEnquiryActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.SmsTemplateActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".ManageEnquiryTypeActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.ManageExpensesActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ManageExerciseActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddMeasurementActivity" />
         <activity
-            android:name=".CustomerCategoryActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.ManageMeasurementActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AttendanceReportActivity" />
-        <activity android:name=".MarkAttendenceActivity" />
-        <activity android:name=".ManageMemberActivity" />
-        <activity android:name=".AddMemberActivity" />
-        <activity android:name=".AddTrainerActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddEnquiryActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddEnquiryType" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddCustomerCategoryActivity" />
         <activity
-            android:name=".ManageTrainerActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.ManageEnquiryActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.ManageEnquiryTypeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.ManageExerciseActivity" />
+        <activity
+            android:name="com.fitSecret.fitSecretMobileApp.CustomerCategoryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AttendanceReportActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.MarkAttendenceActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.ManageMemberActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddMemberActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddTrainerActivity" />
+        <activity
+            android:name="com.fitSecret.fitSecretMobileApp.ManageTrainerActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fitSecret.fitSecretMobileApp.SplashScreenActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,49 +61,49 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".QRCodeActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.QRCodeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".MyProfileActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.MyProfileActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AddUserActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddUserActivity" />
         <activity
-            android:name=".ManageUserActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.ManageUserActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".utils.BaseActivity" />
-        <activity android:name=".AddNoticeActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.utils.BaseActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddNoticeActivity" />
         <activity
-            android:name=".ManageNoticeActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ManageInvoiceActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AddBatchActivity" />
-        <activity
-            android:name=".ManageBatchActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AddTaxActivity" />
-        <activity
-            android:name=".ManTaxActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".AddPlanActivity" />
-        <activity
-            android:name=".ManagePlanActivity"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".EnrollmentFeeActivity" />
-        <activity android:name=".HelpActivity" />
-        <activity android:name=".ReferNEarnActivity" />
-        <activity android:name=".ManageComplaintActivity" />
-        <activity android:name=".AddGymActivity" />
-        <activity
-            android:name=".ManageGymActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.ManageNoticeActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".BottomNavigationActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.ManageInvoiceActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddBatchActivity" />
+        <activity
+            android:name="com.fitSecret.fitSecretMobileApp.ManageBatchActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddTaxActivity" />
+        <activity
+            android:name="com.fitSecret.fitSecretMobileApp.ManTaxActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddPlanActivity" />
+        <activity
+            android:name="com.fitSecret.fitSecretMobileApp.ManagePlanActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.EnrollmentFeeActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.HelpActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.ReferNEarnActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.ManageComplaintActivity" />
+        <activity android:name="com.fitSecret.fitSecretMobileApp.AddGymActivity" />
+        <activity
+            android:name="com.fitSecret.fitSecretMobileApp.ManageGymActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fitSecret.fitSecretMobileApp.BottomNavigationActivity"
             android:label="@string/title_activity_bottom_navigation"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.fitSecret.fitSecretMobileApp.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
 
