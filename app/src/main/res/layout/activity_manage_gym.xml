@@ -10,6 +10,7 @@
     android:id="@+id/managaGymToolbar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
+    android:theme="@style/ToolbarColoredBackArrow"
     android:background="?attr/colorPrimary"
     app:popupTheme="@style/AppTheme.PopupOverlay">
     <RelativeLayout
@@ -35,4 +36,13 @@
         />
     </RelativeLayout>
 </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/gymRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
 </LinearLayout>

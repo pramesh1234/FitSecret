@@ -10,4 +10,24 @@ public class AddGymData {
         this.city = city;
         this.state = state;
     }
+
+    public String getDisplayName() {
+        return displayName;
+    }
+
+    public String getAddressLine1() {
+        return addressLine1;
+    }
+
+    public String getAddressLine2() {
+        return addressLine2;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public String getState() {
+        return state;
+    }
 }

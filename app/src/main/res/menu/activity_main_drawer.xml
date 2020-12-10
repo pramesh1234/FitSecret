@@ -6,247 +6,241 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_name"
-            android:title="Name" />
+            android:title="Gym Name"
+            android:icon="@drawable/ic_fitness"/>
         <item
             android:id="@+id/nav_complaint"
-            android:title="Manage Complaint" />
-        <item
-            android:id="@+id/nav_subscription"
-            android:title="Subscription" />
+            android:title="Manage Complaint"
+            android:icon="@drawable/ic_complaint"/>
         <item
             android:id="@+id/nav_need_help"
-            android:title="Need Help?" />
+            android:title="Need Help?"
+            android:icon="@drawable/ic_information_desk"
+            />
         <item
             android:id="@+id/nav_refer"
-            android:title="Refer &amp; Earn" />
-    <group android:checkableBehavior="single">
-        <item android:title="Master">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:id="@+id/nav_enrollment"
-                        android:title="Enrollment Fee"
-                       />
-                    <item
-                        android:id="@+id/nav_plan"
-                        android:title="Manage Plan"
-                        />
-                    <item
-                        android:id="@+id/nav_tax"
-                        android:title="Manage Tax" />
-                    <item
-                        android:id="@+id/nav_user"
-                        android:title="Manage User"
-                         />
-                    <item
-                        android:id="@+id/nav_batch"
-                        android:title="Manage Batch"
-                        />
-                    <item
-                        android:id="@+id/nav_invoice"
-                        android:title="Manage Invoice"
-                        />
+            android:title="Refer &amp; Earn"
+            android:icon="@drawable/ic_wallet"/>
+        <group android:checkableBehavior="single">
+            <item android:title="Master">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/nav_enrollment"
+                            android:title="Enrollment Fee"
+                            android:icon="@drawable/ic_fees"/>
+                        <item
+                            android:id="@+id/nav_plan"
+                            android:icon="@drawable/ic_plan"
+                            android:title="Manage Plan" />
+                        <item
+                            android:id="@+id/nav_tax"
+                            android:icon="@drawable/ic_taxes"
+                            android:title="Manage Tax" />
+                        <item
+                            android:id="@+id/nav_user"
+                            android:icon="@drawable/ic_users"
+                            android:title="Manage User"
 
-                    <item
-                        android:title="Collection Report"
-                        />
-                    <item
-                        android:id="@+id/nav_notice"
-                        android:title="Manage Notice"
-                        />
-                    <item
-                        android:title="User Log"
-                        />
+                            />
+                        <item
+                            android:id="@+id/nav_batch"
+                            android:icon="@drawable/ic_batch"
+                            android:title="Manage Batch" />
+                        <item
+                            android:id="@+id/nav_invoice"
+                            android:icon="@drawable/ic_invoice"
+                            android:title="Manage Invoice" />
 
-                </group>
-            </menu>
-        </item>
-        <item android:title="Manage Trainer/Staff">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="Manage Trainer/Staff"
-                        />
-                </group>
-            </menu>
-        </item>
-        <item android:title="Member">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="Add Member"
-                        />
-                    <item
-                        android:title="Manage Member"
-                        />
-                </group>
-            </menu>
-        </item>
-        <item android:title="Attendance">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="Mark Attendance"
-                        />
-                    <item
-                        android:title="Attendance Report"
-                        />
-                </group>
-            </menu>
-        </item>
-        <item android:title="Attendance">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="Mark Attendance"
-                        />
-                    <item
-                        android:title="Attendance Report"
-                        />
-                </group>
-            </menu>
-        </item>
-        <item android:title="Enquiry">
-        <menu>
-            <group android:checkableBehavior="single">
-                <item
-                    android:title="Customer Category"
-                    />
-                <item
-                    android:title="Manage Enquiry Type"
-                    />
-                <item
-                    android:title="Manage Enquiry"
-                    />
-            </group>
-        </menu>
-    </item>
-        <item android:title="Expenses">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="Manage Expenses"
-                        />
-                </group>
-            </menu>
-        </item>
-        <item android:title="SMS">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="Manage SMS Template"
-                        />
-                    <item
-                        android:title="SMS History"
-                        />
-                </group>
-            </menu>
-        </item>
-        <item android:title="Diet Plan">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="Manage Diet"
-                        />
-                    <item
-                        android:title="Assign Diet"
-                        />
-                </group>
-            </menu>
-        </item>
-        <item android:title="Exercise">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="Exercise Category"
-                        />
-                    <item
-                        android:title="Exercise Plan"
-                        />
-                    <item
-                        android:title="Assign Exercise"
-                        />
-                </group>
-            </menu>
-        </item>
-        <item android:title="Measurement">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="Manage Measurement"
-                        />
-                </group>
-            </menu>
-        </item>
-        <item android:title="Inventory Management">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="Product Management"
-                        />
-                    <item
-                        android:title="Purchase Management"
-                        />
-                    <item
-                        android:title="Sell Management"
-                        />
-                </group>
-            </menu>
-        </item>
-        <item android:title="Reports">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="Member Report"
-                        />
-                    <item
-                        android:title="Member Transaction"
-                        />
-                    <item
-                        android:title="Today Events"
-                        />
-                    <item
-                        android:title="Trainer PT Report"
-                        />
-                    <item
-                        android:title="Tax Report"
-                        />
-                    <item
-                        android:title="Plan Report"
-                        />
-                    <item
-                        android:title="Batch Report"
-                        />
-                </group>
-            </menu>
-        </item>
-        <item android:title="Communicate">
-            <menu>
-                <group android:checkableBehavior="single">
-                    <item
-                        android:title="About Us"
-                        />
-                    <item
-                        android:title="Share App"
-                        />
-                    <item
-                        android:title="Rate Us"
-                        />
-                    <item
-                        android:title="Theme"
-                        />
-                    <item
-                        android:title="Select Language"
-                        />
-                    <item
-                        android:title="Contact Us"
-                        />
-                    <item
-                        android:title="Log out"
-                        />
-                </group>
-            </menu>
-        </item>
-    </group>
+                        <item
+                            android:icon="@drawable/ic_collection"
+                            android:title="Collection Report" />
+                        <item
+                            android:id="@+id/nav_notice"
+                            android:icon="@drawable/ic_notice"
+                            android:title="Manage Notice" />
+                        <item
+                            android:icon="@drawable/ic_plan"
+                            android:title="User Log" />
+
+                    </group>
+                </menu>
+            </item>
+            <item android:title="Manage Trainer/Staff">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/nav_trainer"
+                            android:title="Manage Trainer/Staff"
+                            android:icon="@drawable/ic_staff"/>
+                    </group>
+                </menu>
+            </item>
+            <item android:title="Member">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/nav_add_member"
+                            android:icon="@drawable/ic_addmember"
+                            android:title="Add Member" />
+                        <item
+                            android:icon="@drawable/ic_managemembers"
+                            android:title="Manage Member" />
+                    </group>
+                </menu>
+            </item>
+            <item android:title="Attendance">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/nav_mark_attendance"
+                            android:icon="@drawable/ic_mark_attendence"
+                            android:title="Mark Attendance" />
+                        <item
+                            android:id="@+id/nav_attendance_report"
+                            android:icon="@drawable/ic_attendence_report"
+                            android:title="Attendance Report" />
+                    </group>
+                </menu>
+            </item>
+            <item android:title="Enquiry">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/nav_customer_category"
+                            android:icon="@drawable/ic_customer_category"
+                            android:title="Customer Category" />
+                        <item
+                            android:id="@+id/nav_enquiry_type"
+                            android:icon="@drawable/ic_enquiry_type"
+                            android:title="Manage Enquiry Type" />
+                        <item
+                            android:id="@+id/nav_enquiry"
+                            android:icon="@drawable/ic_manage_enquiry"
+                            android:title="Manage Enquiry" />
+                    </group>
+                </menu>
+            </item>
+            <item android:title="Expenses">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/nav_manage_expense"
+                            android:icon="@drawable/ic_expense"
+                            android:title="Manage Expenses" />
+                    </group>
+                </menu>
+            </item>
+            <item android:title="SMS">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/nav_sms_template"
+                            android:icon="@drawable/ic_sms"
+                            android:title="Manage SMS Template" />
+                        <item
+                            android:id="@+id/nav_sms_history"
+                            android:icon="@drawable/ic_sms_history"
+                            android:title="SMS History" />
+                    </group>
+                </menu>
+            </item>
+            <item android:title="Diet Plan">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/nav_manage_diet"
+                            android:icon="@drawable/ic_diet"
+                            android:title="Manage Diet" />
+                        <item
+                            android:id="@+id/nav_assign_diet"
+                            android:icon="@drawable/ic_diet"
+                            android:title="Assign Diet" />
+                    </group>
+                </menu>
+            </item>
+            <item android:title="Exercise">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/nav_exercise_category"
+                            android:icon="@drawable/ic_exercise"
+                            android:title="Exercise Category" />
+                        <item
+                            android:icon="@drawable/ic_exercise"
+                            android:title="Exercise Plan" />
+                        <item
+                            android:icon="@drawable/ic_exercise"
+                            android:title="Assign Exercise" />
+                    </group>
+                </menu>
+            </item>
+            <item android:title="Measurement">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item
+                            android:id="@+id/nav_measurement"
+                            android:icon="@drawable/ic_measurement"
+                            android:title="Manage Measurement" />
+                    </group>
+                </menu>
+            </item>
+            <item android:title="Inventory Management">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item android:title="Product Management"
+                            android:icon="@drawable/ic_product"/>
+                        <item android:title="Purchase Management"
+                            android:icon="@drawable/ic_purchase"/>
+                        <item android:title="Sell Management"
+                            android:icon="@drawable/ic_sell"/>
+                    </group>
+                </menu>
+            </item>
+            <item android:title="Reports">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item android:title="Member Report"
+                            android:icon="@drawable/ic_member_report"/>
+                        <item android:title="Member Transaction"
+                            android:icon="@drawable/ic_transaction"
+                           />
+                        <item android:title="Today Events"
+                            android:icon="@drawable/ic_event"/>
+                        <item android:title="Trainer PT Report"
+                            android:icon="@drawable/ic_trainer"/>
+                        <item android:title="Tax Report"
+                            android:icon="@drawable/ic_tax_report"/>
+                        <item android:title="Plan Report"
+                            android:icon="@drawable/ic_plan_report"
+                            />
+                        <item android:title="Batch Report"
+                            android:icon="@drawable/ic_batch"/>
+                    </group>
+                </menu>
+            </item>
+            <item android:title="Communicate">
+                <menu>
+                    <group android:checkableBehavior="single">
+                        <item android:title="About Us"
+                            android:icon="@drawable/ic_about_us"/>
+                        <item android:title="Share App"
+                            android:icon="@drawable/ic_share"/>
+                        <item android:title="Rate Us"
+                            android:icon="@drawable/ic_rating"/>
+                        <item android:title="Theme"
+                            android:icon="@drawable/ic_theme"/>
+                        <item android:title="Select Language"
+                            android:icon="@drawable/ic_language"/>
+                        <item android:title="Contact Us"
+                            android:icon="@drawable/ic_contact_us"
+                            />
+                        <item
+                            android:icon="@drawable/ic_logout_color"
+                            android:title="Log out" />
+                    </group>
+                </menu>
+            </item>
+        </group>
     </group>
 </menu>

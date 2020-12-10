@@ -2,70 +2,271 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context=".AddUserActivity">
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/batchName"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:hint="Batch Name">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".AddUserActivity">
 
-        <com.google.android.material.textfield.TextInputEditText
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Select User Type"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/user_type_spinner"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </com.google.android.material.textfield.TextInputLayout>
+            android:layout_height="50dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/batchLimit"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:hint="Batch Limit">
-
-        <com.google.android.material.textfield.TextInputEditText
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/user_name_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number" />
-    </com.google.android.material.textfield.TextInputLayout>
+            android:layout_margin="16dp"
+            android:hint="Name">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/colorPrimary"
-        android:text="Batch Open time"
-        android:layout_marginLeft="16dp"
-        android:textSize="16sp" />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_name_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
 
-    <TimePicker
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Batch Close time"
-        android:textColor="@color/colorPrimary"
-        android:layout_marginLeft="16dp"
-        android:textSize="16sp" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-    <TimePicker
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/user_mobile_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="Mobile No.">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="8dp"
-        android:text="Submit" />
-</LinearLayout>
-    </ScrollView>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/mobile_no_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:maxLength="10" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/user_email_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="Email">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_email_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textWebEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/password_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="Password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_password_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/confirm_password_layout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:hint="Confirm Password">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/user_confirm_password_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:text="Permissions:"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/home_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:onClick="onCheckboxClicked"
+            android:text="Home" />
+
+        <CheckBox
+            android:id="@+id/enrollment_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="onCheckboxClicked"
+            android:layout_marginTop="4dp"
+            android:text="Enrollment" />
+
+        <CheckBox
+            android:id="@+id/user_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="onCheckboxClicked"
+            android:layout_marginTop="4dp"
+            android:text="User" />
+
+        <CheckBox
+            android:id="@+id/plan_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:onClick="onCheckboxClicked"
+            android:text="Plan" />
+
+        <CheckBox
+            android:id="@+id/tax_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="onCheckboxClicked"
+            android:layout_marginTop="4dp"
+            android:text="Tax" />
+
+        <CheckBox
+            android:id="@+id/invoice_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:onClick="onCheckboxClicked"
+            android:text="Invoice" />
+
+        <CheckBox
+            android:id="@+id/trainer_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="onCheckboxClicked"
+            android:layout_marginTop="4dp"
+            android:text="Trainer" />
+
+        <CheckBox
+            android:id="@+id/member_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:onClick="onCheckboxClicked"
+            android:text="Member" />
+
+        <CheckBox
+            android:id="@+id/enquiry_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:onClick="onCheckboxClicked"
+            android:text="Enquiry" />
+
+        <CheckBox
+            android:id="@+id/sms_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="onCheckboxClicked"
+            android:layout_marginTop="4dp"
+            android:text="Sms" />
+
+        <CheckBox
+            android:id="@+id/diet_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="onCheckboxClicked"
+            android:layout_marginTop="4dp"
+            android:text="Diet" />
+
+        <CheckBox
+            android:id="@+id/measurement_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="onCheckboxClicked"
+            android:layout_marginTop="4dp"
+            android:text="Measurement" />
+
+        <CheckBox
+            android:id="@+id/slider_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:onClick="onCheckboxClicked"
+            android:text="Slider" />
+
+        <CheckBox
+            android:id="@+id/export_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="onCheckboxClicked"
+            android:layout_marginTop="4dp"
+            android:text="Export" />
+
+        <CheckBox
+            android:id="@+id/notice_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:onClick="onCheckboxClicked"
+            android:layout_marginTop="4dp"
+            android:text="Notice" />
+
+        <CheckBox
+            android:id="@+id/exercise_cb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:onClick="onCheckboxClicked"
+            android:text="Exercise" />
+
+        <Button
+            android:id="@+id/submit_user_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:text="submit" />
+    </LinearLayout>
+</ScrollView>

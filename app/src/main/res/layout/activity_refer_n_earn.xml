@@ -8,22 +8,81 @@
     android:orientation="vertical">
 <androidx.cardview.widget.CardView
     android:layout_width="match_parent"
-    android:layout_height="120dp"
+    android:layout_height="wrap_content"
     android:layout_margin="12dp"
     app:cardCornerRadius="10dp">
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Good Evening ,User Name"
+    android:textColor="#000"
+    android:layout_gravity="center"
+    android:layout_marginTop="4dp"
+    android:textSize="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You got 100 points(100 Rs.)"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:textSize="24dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You can redeem 20% of the actual amount while subscribing to our plans and get discount. "
+            android:textColor="#434343"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="16dp"/>
+    </LinearLayout>
 </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="440dp"
+        android:layout_height="wrap_content"
         android:layout_margin="12dp"
         app:cardCornerRadius="16dp">
-<Button
-    android:id="@+id/shareBtn"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Share"
-    android:layout_marginBottom="12dp"
-    android:layout_gravity="bottom|center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="260dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/refer_earn"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to FitSecret Referal Program, Here we brings you and opportunity to grab some points that helps you to get extra discounts when you purchase a plan"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:layout_marginTop="8dp"
+                android:textColor="#000"
+                android:lineSpacingExtra="8dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How To Earn More Points"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+            <Button
+                android:id="@+id/shareBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp"
+                android:layout_gravity="bottom|center"/>
+        </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 </LinearLayout>

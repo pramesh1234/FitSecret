@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/today"
+        android:title="Today" />
+    <item
+        android:id="@+id/week"
+        android:title="This Week"/>
+    <item
+        android:id="@+id/month"
+        android:title="This Month"/>
+    <item
+        android:id="@+id/year"
+        android:title="This Year"/>
+    <item
+        android:id="@+id/total"
+        android:title="Total"/>
+    <item
+        android:id="@+id/manually"
+        android:title="Manually"/>
+
+</menu>

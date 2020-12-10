@@ -12,6 +12,7 @@
         app:fabSize="normal"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
+        android:tint="#fff"
         android:layout_margin="12dp"
         android:src="@drawable/ic_baseline_add_24"
         android:backgroundTint="@color/colorPrimary"

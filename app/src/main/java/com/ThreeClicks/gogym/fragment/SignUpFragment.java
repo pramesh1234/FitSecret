@@ -8,16 +8,19 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.CheckBox;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.ThreeClicks.gogym.BottomNavigationActivity;
 import com.ThreeClicks.gogym.R;
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 
 public class SignUpFragment extends Fragment {
     TextInputEditText fullNameEt,emailEt,mobileEt,passwordEt,cnfrmPasswordEt;
     RelativeLayout registerBtn;
+    TextInputLayout referral;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,6 +31,18 @@ public class SignUpFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View rootView=inflater.inflate(R.layout.fragment_sign_up, container, false);
+        referral=(TextInputLayout) rootView.findViewById(R.id.referal);
+        final CheckBox checkBox=(CheckBox) rootView.findViewById(R.id.referralCheckbox);
+        checkBox.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(checkBox.isChecked()){
+                    referral.setVisibility(View.VISIBLE);
+                }else{
+                    referral.setVisibility(View.GONE);
+                }
+            }
+        });
          fullNameEt=(TextInputEditText) rootView.findViewById(R.id.fullNameEt);
          mobileEt=(TextInputEditText) rootView.findViewById(R.id.mobileEt);
          emailEt=(TextInputEditText) rootView.findViewById(R.id.emailEt);

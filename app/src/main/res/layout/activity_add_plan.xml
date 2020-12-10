@@ -15,6 +15,7 @@
     android:textColor="@color/colorPrimary"
     android:textSize="18sp"/>
     <Spinner
+        android:id="@+id/planType"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="16dp"
@@ -29,9 +30,10 @@
         android:hint="Plan Name">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_plan_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
+            android:inputType="text"
             />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -44,6 +46,7 @@
         android:hint="Amount">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_plan_amount"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
@@ -56,9 +59,10 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:hint="Duration">
+        android:hint="Duration in days (GYM plan)">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_plan_Duration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
@@ -69,18 +73,23 @@
         android:id="@+id/description"
         android:layout_width="match_parent"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:layout_margin="16dp"
         android:hint="Description">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_plan_description"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="number"
+            android:layout_height="match_parent"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLines="10"
+            android:gravity="top"
+
             />
 
     </com.google.android.material.textfield.TextInputLayout>
 <Button
+    android:id="@+id/submit_plan"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="submit"
