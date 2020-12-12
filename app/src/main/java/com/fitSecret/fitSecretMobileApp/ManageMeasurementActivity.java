@@ -8,9 +8,11 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class ManageMeasurementActivity extends AppCompatActivity {
 Toolbar toolbar;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +20,7 @@ Toolbar toolbar;
         toolbar=(Toolbar) findViewById(R.id.manage_measurement_toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         ImageView addMeasurement=(ImageView) findViewById(R.id.add_measurement);
         addMeasurement.setOnClickListener(new View.OnClickListener() {
             @Override

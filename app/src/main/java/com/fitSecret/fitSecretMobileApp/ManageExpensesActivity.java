@@ -1,5 +1,6 @@
 package com.fitSecret.fitSecretMobileApp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -9,6 +10,10 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import com.fitSecret.fitSecretMobileApp.fragment.DialogComplaintFragment;
+import com.fitSecret.fitSecretMobileApp.fragment.DialogManualExpenseFragment;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class ManageExpensesActivity extends AppCompatActivity {
 TextView expenseTypeTv;
@@ -20,6 +25,14 @@ TextView expenseTypeTv;
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         expenseTypeTv=(TextView) findViewById(R.id.expense_type);
+        FloatingActionButton addExpenseBtn=(FloatingActionButton) findViewById(R.id.add_expense_btn);
+        addExpenseBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(ManageExpensesActivity.this,AddExpenseActivity.class);
+                startActivity(i);
+            }
+        });
         final ImageView moreOption = (ImageView) findViewById(R.id.more_option_expense);
         moreOption.setOnClickListener(new View.OnClickListener() {
                                           @Override
@@ -29,7 +42,12 @@ TextView expenseTypeTv;
 
                                               popup.setOnMenuItemClickListener(new PopupMenu.OnMenuItemClickListener() {
                                                   public boolean onMenuItemClick(MenuItem item) {
-                                                     expenseTypeTv.setText(""+ item.getTitle());
+                                                      if(item.getTitle().toString().equals("Manually")){
+                                                          DialogManualExpenseFragment manualSelect = new DialogManualExpenseFragment();
+                                                          manualSelect.show(getSupportFragmentManager(),"show");
+                                                      }else {
+                                                          expenseTypeTv.setText("" + item.getTitle());
+                                                      }
                                                       return true;
                                                   }
                                               });
