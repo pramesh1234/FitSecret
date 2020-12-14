@@ -107,7 +107,11 @@
         android:layout_height="wrap_content"
         android:text="Update"
         android:layout_gravity="center"
-        android:tooltipText="12dp"/>
+        android:tooltipText="12dp"
+        android:textAllCaps="true"
+        android:padding="6dp"
+        android:backgroundTint="@color/buttonColor"
+        android:fontFamily="@font/roboto_medium"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

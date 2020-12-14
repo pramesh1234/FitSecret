@@ -43,5 +43,27 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/add_expense_recyclerview"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add More"
+        android:textSize="20sp"
+        android:drawableStart="@drawable/ic_baseline_add_circle_outline_24"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:textAllCaps="true"
+        android:padding="6dp"
+        android:backgroundTint="@color/buttonColor"
+        android:fontFamily="@font/roboto_medium"
+        android:text="submit" />
 </LinearLayout>

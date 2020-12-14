@@ -25,5 +25,9 @@
         android:layout_height="wrap_content"
         android:text="Submit"
         android:layout_gravity="center"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="12dp"
+        android:textAllCaps="true"
+        android:padding="6dp"
+        android:backgroundTint="@color/buttonColor"
+        android:fontFamily="@font/roboto_medium"/>
 </LinearLayout>
