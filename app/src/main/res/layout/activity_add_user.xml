@@ -16,6 +16,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:text="Select User Type"
+            android:fontFamily="@font/roboto_medium"
             android:textColor="@color/colorPrimary"
             android:textSize="18sp" />
 
@@ -39,7 +40,8 @@
                 android:id="@+id/user_name_et"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text" />
+                android:inputType="text"
+                android:fontFamily="@font/roboto_medium"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -49,14 +51,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
-            android:hint="Mobile No.">
+            android:hint="Mobile No."
+            android:fontFamily="@font/roboto_medium">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/mobile_no_et"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:maxLength="10" />
+                android:maxLength="10"
+                android:fontFamily="@font/roboto_medium"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -66,13 +70,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
+            android:fontFamily="@font/roboto_medium"
             android:hint="Email">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/user_email_et"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textWebEmailAddress" />
+                android:inputType="textWebEmailAddress"
+                android:fontFamily="@font/roboto_medium"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -88,6 +94,7 @@
                 android:id="@+id/user_password_et"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
                 android:inputType="textPassword" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -104,7 +111,8 @@
                 android:id="@+id/user_confirm_password_et"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:fontFamily="@font/roboto_medium"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -115,7 +123,8 @@
             android:layout_marginTop="12dp"
             android:text="Permissions:"
             android:textColor="@color/colorPrimary"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto_medium"/>
 
         <CheckBox
             android:id="@+id/home_cb"
@@ -124,6 +133,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="4dp"
             android:onClick="onCheckboxClicked"
+            android:fontFamily="@font/roboto_medium"
             android:text="Home" />
 
         <CheckBox
@@ -132,6 +142,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:onClick="onCheckboxClicked"
+            android:fontFamily="@font/roboto_medium"
             android:layout_marginTop="4dp"
             android:text="Enrollment" />
 
@@ -142,6 +153,7 @@
             android:layout_marginLeft="20dp"
             android:onClick="onCheckboxClicked"
             android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="User" />
 
         <CheckBox
@@ -149,6 +161,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:fontFamily="@font/roboto_medium"
             android:layout_marginTop="4dp"
             android:onClick="onCheckboxClicked"
             android:text="Plan" />
@@ -158,6 +171,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:fontFamily="@font/roboto_medium"
             android:onClick="onCheckboxClicked"
             android:layout_marginTop="4dp"
             android:text="Tax" />
@@ -166,6 +180,7 @@
             android:id="@+id/invoice_cb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="4dp"
             android:onClick="onCheckboxClicked"
@@ -178,6 +193,7 @@
             android:layout_marginLeft="20dp"
             android:onClick="onCheckboxClicked"
             android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="Trainer" />
 
         <CheckBox
@@ -186,6 +202,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_medium"
             android:onClick="onCheckboxClicked"
             android:text="Member" />
 
@@ -195,6 +212,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_medium"
             android:onClick="onCheckboxClicked"
             android:text="Enquiry" />
 
@@ -202,6 +220,7 @@
             android:id="@+id/sms_cb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
             android:layout_marginLeft="20dp"
             android:onClick="onCheckboxClicked"
             android:layout_marginTop="4dp"
@@ -211,6 +230,7 @@
             android:id="@+id/diet_cb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
             android:layout_marginLeft="20dp"
             android:onClick="onCheckboxClicked"
             android:layout_marginTop="4dp"
@@ -221,6 +241,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
+            android:fontFamily="@font/roboto_medium"
             android:onClick="onCheckboxClicked"
             android:layout_marginTop="4dp"
             android:text="Measurement" />
@@ -232,12 +253,14 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="4dp"
             android:onClick="onCheckboxClicked"
+            android:fontFamily="@font/roboto_medium"
             android:text="Slider" />
 
         <CheckBox
             android:id="@+id/export_cb"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
             android:layout_marginLeft="20dp"
             android:onClick="onCheckboxClicked"
             android:layout_marginTop="4dp"
@@ -246,6 +269,7 @@
         <CheckBox
             android:id="@+id/notice_cb"
             android:layout_width="match_parent"
+            android:fontFamily="@font/roboto_medium"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:onClick="onCheckboxClicked"
@@ -255,6 +279,7 @@
         <CheckBox
             android:id="@+id/exercise_cb"
             android:layout_width="match_parent"
+            android:fontFamily="@font/roboto_medium"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="4dp"

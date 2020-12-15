@@ -15,12 +15,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:fontFamily="@font/roboto_medium"
         android:hint="Batch Name">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/batch_name_et"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -29,12 +32,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:fontFamily="@font/roboto_medium"
         android:hint="Batch Limit">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/batch_limit_et"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+
             android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -44,6 +50,7 @@
         android:textColor="@color/colorPrimary"
         android:text="Batch Open time"
         android:layout_marginLeft="16dp"
+        android:fontFamily="@font/roboto_medium"
         android:textSize="16sp" />
 
     <TimePicker
@@ -55,6 +62,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
         android:text="Batch Close time"
         android:textColor="@color/colorPrimary"
         android:layout_marginLeft="16dp"

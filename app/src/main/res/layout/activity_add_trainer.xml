@@ -23,7 +23,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text" />
+            android:inputType="text"
+            android:fontFamily="@font/roboto_medium"/>
 
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -39,13 +40,15 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="text" />
+            android:inputType="text"
+            android:fontFamily="@font/roboto_medium"/>
 
     </com.google.android.material.textfield.TextInputLayout>
     <DatePicker
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+
         android:datePickerMode="calendar"/>
     <TextView
         android:layout_width="wrap_content"
@@ -53,6 +56,7 @@
         android:text="Gender"
         android:textColor="#403E3E"
         android:layout_marginLeft="16dp"
+        android:fontFamily="@font/roboto_medium"
         android:textSize="20dp"/>
     <RadioGroup
         android:layout_width="wrap_content"
@@ -63,11 +67,14 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Male"/>
+            android:text="Male"
+            android:fontFamily="@font/roboto_medium"
+            />
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="Female"/>
     </RadioGroup>
     <com.google.android.material.textfield.TextInputLayout
@@ -82,6 +89,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
             android:inputType="text" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -98,7 +106,8 @@
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text" />
+        android:inputType="text"
+        android:fontFamily="@font/roboto_medium"/>
 
 </com.google.android.material.textfield.TextInputLayout> <com.google.android.material.textfield.TextInputLayout
     android:id="@+id/email_id"
@@ -113,7 +122,8 @@
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text" />
+        android:inputType="text"
+        android:fontFamily="@font/roboto_medium"/>
 
 </com.google.android.material.textfield.TextInputLayout> <com.google.android.material.textfield.TextInputLayout
     android:id="@+id/experience"
@@ -128,7 +138,8 @@
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text" />
+        android:inputType="text"
+        android:fontFamily="@font/roboto_medium"/>
 
 </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
@@ -144,6 +155,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
             android:inputType="text" />
 
     </com.google.android.material.textfield.TextInputLayout>

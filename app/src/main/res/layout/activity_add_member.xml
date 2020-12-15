@@ -17,6 +17,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="16dp"
             android:text="Select Image"
+            android:fontFamily="@font/roboto_medium"
             android:textColor="@color/colorPrimary"
             android:textSize="18sp" />
 
@@ -40,7 +41,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="number" />
+                android:inputType="number"
+                android:fontFamily="@font/roboto_medium"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -57,7 +59,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text" />
+                android:inputType="text"
+                android:fontFamily="@font/roboto_medium"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -74,7 +77,8 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text" />
+                android:inputType="text"
+                android:fontFamily="@font/roboto_medium"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -84,6 +88,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
             android:text="Gender"
+            android:fontFamily="@font/roboto_medium"
             android:textColor="#403E3E"
             android:textSize="20dp" />
 
@@ -96,12 +101,14 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Male" />
+                android:text="Male"
+                android:fontFamily="@font/roboto_medium"/>
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="8dp"
+                android:fontFamily="@font/roboto_medium"
                 android:text="Female" />
         </RadioGroup>
 
@@ -119,6 +126,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
+                android:fontFamily="@font/roboto_medium"
                 android:maxLength="10" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -128,6 +136,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="16dp"
             android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_medium"
             android:text="*VIP Member" />
 
 
@@ -139,6 +148,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="12dp"
                 android:text="Plan Details*"
@@ -176,12 +186,14 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="12dp"
                 android:text="Select Plan"
+                android:fontFamily="@font/roboto_medium"
                 android:textSize="20dp" />
 
             <Spinner
                 android:id="@+id/plan_spinner"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
+                android:fontFamily="@font/roboto_medium"
                 android:layout_marginTop="8dp" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -197,7 +209,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/plan_amount_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
@@ -206,6 +220,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="8dp"
                 android:text="Start date "
+                android:fontFamily="@font/roboto_medium"
                 android:textColor="@color/colorPrimary"
                 android:textSize="20dp" />
 
@@ -220,6 +235,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
+                android:fontFamily="@font/roboto_medium"
                 android:layout_marginTop="8dp"
                 android:text="Expiry date "
                 android:textColor="@color/colorPrimary"
@@ -236,6 +252,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
+                android:fontFamily="@font/roboto_medium"
                 android:layout_marginTop="8dp"
                 android:text="Payment Method"
                 android:textColor="@color/colorPrimary"
@@ -244,6 +261,7 @@
             <Spinner
                 android:id="@+id/payment_spinner"
                 android:layout_width="match_parent"
+                android:fontFamily="@font/roboto_medium"
                 android:layout_height="40dp" />
 
             <com.google.android.material.textfield.TextInputLayout
@@ -254,12 +272,14 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="12dp"
                 android:layout_marginRight="12dp"
+                android:fontFamily="@font/roboto_medium"
                 android:hint="Tax Name">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/paid_amount"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -275,7 +295,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/enrollment_fee"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
@@ -283,6 +305,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="8dp"
+                android:fontFamily="@font/roboto_medium"
                 android:text="Discount Type"
                 android:textColor="@color/colorPrimary"
                 android:textSize="20dp" />
@@ -290,7 +313,9 @@
             <Spinner
                 android:id="@+id/discount_spinner"
                 android:layout_width="match_parent"
-                android:layout_height="40dp" />
+                android:layout_height="40dp"
+                android:fontFamily="@font/roboto_medium"
+                />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/discount_layout"
@@ -305,7 +330,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/discount_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    />
             </com.google.android.material.textfield.TextInputLayout>
             <TextView
                 android:layout_width="wrap_content"
@@ -313,6 +340,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="8dp"
                 android:text="Tax Applicable"
+                android:fontFamily="@font/roboto_medium"
                 android:textColor="@color/colorPrimary"
                 android:textSize="20dp" />
             <ListView
@@ -332,7 +360,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/tax_amount_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -348,7 +378,8 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/due_amount_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
@@ -358,6 +389,7 @@
                 android:layout_marginTop="8dp"
                 android:text="Due Amount Reminder "
                 android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/roboto_medium"
                 android:textSize="20dp" />
 
             <DatePicker
@@ -375,12 +407,14 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="12dp"
                 android:layout_marginRight="12dp"
+                android:fontFamily="@font/roboto_medium"
                 android:hint="Tax Name">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/batch_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <TextView
@@ -390,6 +424,7 @@
                 android:layout_marginTop="8dp"
                 android:text="Bill date "
                 android:textColor="@color/colorPrimary"
+                android:fontFamily="@font/roboto_medium"
                 android:textSize="20dp" />
 
             <DatePicker
@@ -415,6 +450,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
+                android:fontFamily="@font/roboto_medium"
                 android:layout_marginLeft="12dp"
                 android:text="Other Details*"
                 android:textColor="#000"
@@ -451,6 +487,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="8dp"
                 android:text="Upload Document"
+                android:fontFamily="@font/roboto_medium"
                 android:textColor="@color/colorPrimary"
                 android:textSize="20dp" />
 
@@ -469,6 +506,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="Document 1" />
 
                     <ImageView
@@ -490,6 +528,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="Document 2" />
 
                     <ImageView
@@ -511,6 +550,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="Document 3" />
 
                     <ImageView
@@ -528,6 +568,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="8dp"
                 android:text="Date Of Birth"
+                android:fontFamily="@font/roboto_medium"
                 android:textColor="@color/colorPrimary"
                 android:textSize="20dp" />
 
@@ -550,7 +591,8 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/email_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/home_phone_layout"
@@ -565,7 +607,8 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/home_phone_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium" />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/care_of_layout"
@@ -580,7 +623,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/care_of_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/unique_id_layout"
@@ -595,7 +640,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/unique_id_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/company_name_layout"
@@ -610,7 +657,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/company_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    />
             </com.google.android.material.textfield.TextInputLayout>
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/company_gst_layout"
@@ -625,7 +674,9 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/company_gst_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium"
+                    />
             </com.google.android.material.textfield.TextInputLayout>
             <TextView
                 android:layout_width="wrap_content"
@@ -633,6 +684,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="8dp"
                 android:text="Date Of Birth"
+                android:fontFamily="@font/roboto_medium"
                 android:textColor="@color/colorPrimary"
                 android:textSize="20dp" />
 
@@ -655,7 +707,8 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/remark_et"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_medium" />
             </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
         <View
