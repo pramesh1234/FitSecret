@@ -20,13 +20,14 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="12dp"
-            android:orientation="vertical"
             android:clickable="false"
-            android:focusable="false">
+            android:focusable="false"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
                 android:text="Name"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="18sp" />
@@ -34,24 +35,27 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/roboto_medium"
                 android:text="User Type"
-                android:layout_marginTop="4dp"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/roboto_medium"
                 android:text="Mobile"
-                android:layout_marginTop="4dp"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email"
                 android:layout_marginTop="4dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Email"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="18sp" />
         </LinearLayout>
@@ -68,6 +72,7 @@
                 android:id="@+id/user_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
                 android:text="Name"
                 android:textColor="#000"
                 android:textSize="18sp" />
@@ -76,17 +81,19 @@
                 android:id="@+id/user_type_tv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/roboto_medium"
                 android:text="User Type"
                 android:textColor="#000"
-                android:layout_marginTop="4dp"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/user_mobile"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Mobile"
                 android:layout_marginTop="4dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Mobile"
                 android:textColor="#000"
                 android:textSize="18dp" />
 
@@ -94,9 +101,10 @@
                 android:id="@+id/user_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/roboto_medium"
                 android:text="Email"
                 android:textColor="#000"
-                android:layout_marginTop="4dp"
                 android:textSize="18sp" />
         </LinearLayout>
 
@@ -105,6 +113,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/headline"
             android:layout_marginTop="12dp"
+
             android:orientation="vertical">
 
             <LinearLayout
@@ -119,6 +128,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="Home"
                     android:textSize="16dp" />
 
@@ -129,6 +139,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="Slider"
                     android:textSize="16dp" />
 
@@ -139,6 +150,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="Enrollment"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -146,6 +158,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
                 android:orientation="horizontal">
 
                 <CheckBox
@@ -155,6 +168,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="User"
                     android:textSize="16dp" />
 
@@ -165,6 +179,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="Plan"
                     android:textSize="16dp" />
 
@@ -175,6 +190,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="Tax"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -191,6 +207,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="Member"
                     android:textSize="16dp" />
 
@@ -201,6 +218,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="SMS"
                     android:textSize="16dp" />
 
@@ -211,6 +229,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="Invoice"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -227,6 +246,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="Export"
                     android:textSize="16dp" />
 
@@ -235,9 +255,10 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Notice"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Notice"
                     android:textSize="16dp" />
 
                 <CheckBox
@@ -247,6 +268,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="Trainer"
                     android:textSize="16dp" />
             </LinearLayout>
@@ -261,9 +283,10 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Enquiry"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Enquiry"
                     android:textSize="16dp" />
 
                 <CheckBox
@@ -271,9 +294,10 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Diet"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Diet"
                     android:textSize="16dp" />
 
                 <CheckBox
@@ -281,9 +305,10 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Measurement"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="Measurement"
                     android:textSize="16dp" />
             </LinearLayout>
 
@@ -300,6 +325,7 @@
                     android:layout_weight="1"
                     android:clickable="false"
                     android:focusable="false"
+                    android:fontFamily="@font/roboto_medium"
                     android:text="Exercise"
                     android:textSize="16dp" />
             </LinearLayout>

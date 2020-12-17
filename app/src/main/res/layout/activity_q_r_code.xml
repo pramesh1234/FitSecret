@@ -51,6 +51,7 @@
         android:layout_centerInParent="true"
         android:textSize="20dp"
         android:textColor="#000"
+        android:fontFamily="@font/roboto_medium"
         android:text="To Mark Attendance, Please Scan QR Code"
         android:layout_marginBottom="18dp"/>
 </RelativeLayout></LinearLayout>

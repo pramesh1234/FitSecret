@@ -21,6 +21,7 @@
             android:layout_height="wrap_content"
             android:text="New Complain"
             android:textColor="#232323"
+            android:fontFamily="@font/roboto_medium"
             android:textSize="20sp"
             android:layout_margin="12dp"/>
         <EditText
@@ -29,6 +30,7 @@
             android:layout_height="120dp"
             android:layout_marginLeft="12dp"
             android:layout_marginRight="12dp"
+            android:fontFamily="@font/roboto_medium"
             android:gravity="top"
             android:padding="8dp"
             android:maxLines="10"
@@ -38,6 +40,7 @@
             android:id="@+id/addComplaintImage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
             android:layout_margin="12dp"
             android:text="Add Image/Screenshots"/>
         <Button
@@ -45,6 +48,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="12dp"
+            android:fontFamily="@font/roboto_medium"
             android:layout_marginRight="12dp"
             android:layout_marginBottom="12dp"
             android:text="Submit"/>

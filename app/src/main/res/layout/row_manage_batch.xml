@@ -16,6 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
+            android:fontFamily="@font/roboto_medium"
             android:layout_marginLeft="12dp"
             android:layout_marginTop="12dp"
             android:text="name(55)"
@@ -28,6 +29,7 @@
             android:layout_below="@+id/batch_name"
             android:layout_alignParentLeft="true"
             android:layout_marginLeft="12dp"
+            android:fontFamily="@font/roboto_medium"
             android:layout_marginTop="8dp"
             android:text="Available Limit"
             android:textSize="16sp" />
@@ -41,6 +43,7 @@
             android:layout_marginLeft="12dp"
             android:layout_marginTop="8dp"
             android:text="535"
+            android:fontFamily="@font/roboto_medium"
             android:textColor="#000"
             android:textSize="16sp" />
 
@@ -83,6 +86,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="16dp"
+                android:fontFamily="@font/roboto_medium"
                 android:text="Available Limit"
                 android:textSize="16sp" />
 
@@ -93,6 +97,7 @@
                 android:layout_marginLeft="12dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="16dp"
+                android:fontFamily="@font/roboto_medium"
                 android:text="535"
                 android:textColor="#000"
                 android:textSize="16sp" />

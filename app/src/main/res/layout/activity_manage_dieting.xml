@@ -23,6 +23,7 @@
                 android:textSize="20sp"
                 android:text="Manage Diet"
                 android:textColor="#fff"
+                android:fontFamily="@font/roboto_medium"
                 android:layout_centerInParent="true"
                 android:layout_alignParentLeft="true"
                 />

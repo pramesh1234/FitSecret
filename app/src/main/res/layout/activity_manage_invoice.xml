@@ -22,6 +22,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="20sp"
                 android:text="Manage Invoice"
+                android:fontFamily="@font/roboto_medium"
                 android:textColor="#fff"
                 android:layout_centerInParent="true"
                 android:layout_alignParentLeft="true"
@@ -43,6 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="All Members"
+            android:fontFamily="@font/roboto_medium"
             android:textSize="12dp"
             android:layout_margin="12dp"/>
         <Button
@@ -51,6 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Deleted Members"
+            android:fontFamily="@font/roboto_medium"
             android:textColor="#000"
             android:textSize="12dp"
             android:backgroundTint="#fff"

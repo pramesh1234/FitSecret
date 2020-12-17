@@ -27,6 +27,7 @@
             android:id="@+id/gym_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
             android:textSize="28dp"
             android:text="Gym Name"/>
         <TextView
@@ -35,6 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="Lig-107, Niharika"
+            android:fontFamily="@font/roboto_medium"
             android:textSize="18sp"/>
         <TextView
             android:id="@+id/gym_location"
@@ -42,6 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="Korba, Chhattisgarh"
+            android:fontFamily="@font/roboto_medium"
             android:textSize="18sp"/>
     </LinearLayout>
     <ImageView

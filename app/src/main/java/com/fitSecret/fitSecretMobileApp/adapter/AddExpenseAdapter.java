@@ -4,6 +4,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -35,7 +36,12 @@ Context context;
 
     @Override
     public void onBindViewHolder(@NonNull AddExpenseAdapter.ViewHolder holder, int position) {
-        holder.positionTextview.setText("" +(position+1));
+        holder.positionTextview.setText("#" +(position+1));
+        if(expenseArraylist.get(position).equals("1")){
+            holder.deleteImageView.setVisibility(View.GONE);
+        }else{
+            holder.deleteImageView.setVisibility(View.VISIBLE);
+        }
     }
 
     @Override
@@ -44,11 +50,13 @@ Context context;
     }
     public class ViewHolder extends RecyclerView.ViewHolder {
         TextView positionTextview;
+        ImageView deleteImageView;
 
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             positionTextview = (TextView) itemView.findViewById(R.id.expense_position);
+            deleteImageView=(ImageView) itemView.findViewById(R.id.delete_expense);
         }
     }
 }

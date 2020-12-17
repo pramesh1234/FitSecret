@@ -10,6 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
+        android:fontFamily="@font/roboto_medium"
         android:text="Enrollment fee is the amount taken while admission or first registration of the member.If you do not take any fees or amount for registration. leave this fee as 0(zero)."/>
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/addressLine1"
@@ -23,6 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="number"
+            android:fontFamily="@font/roboto_medium"
             />
 
     </com.google.android.material.textfield.TextInputLayout>

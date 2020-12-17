@@ -20,6 +20,7 @@
     android:layout_height="wrap_content"
     android:text="Good Evening ,User Name"
     android:textColor="#000"
+    android:fontFamily="@font/roboto_medium"
     android:layout_gravity="center"
     android:layout_marginTop="4dp"
     android:textSize="24dp"/>
@@ -29,6 +30,7 @@
             android:text="You got 100 points(100 Rs.)"
             android:textColor="#000"
             android:layout_gravity="center"
+            android:fontFamily="@font/roboto_medium"
             android:layout_marginTop="4dp"
             android:textSize="24dp"/>
         <TextView
@@ -38,6 +40,7 @@
             android:textColor="#434343"
             android:textAlignment="center"
             android:layout_gravity="center"
+            android:fontFamily="@font/roboto_medium"
             android:layout_marginTop="4dp"
             android:layout_marginBottom="8dp"
             android:textSize="16dp"/>
@@ -60,6 +63,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
                 android:text="Welcome to FitSecret Referal Program, Here we brings you and opportunity to grab some points that helps you to get extra discounts when you purchase a plan"
                 android:textAlignment="center"
                 android:textSize="16sp"
@@ -72,6 +76,7 @@
                 android:layout_height="wrap_content"
                 android:text="How To Earn More Points"
                 android:textAllCaps="false"
+                android:fontFamily="@font/roboto_medium"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"/>
             <Button
@@ -79,6 +84,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Share"
+                android:fontFamily="@font/roboto_medium"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="12dp"
                 android:layout_gravity="bottom|center"/>

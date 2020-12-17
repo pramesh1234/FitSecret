@@ -40,7 +40,8 @@
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/emailPhone"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"/>
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -57,7 +58,9 @@
                         android:id="@+id/password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:inputType="textPassword" />
+                        android:inputType="textPassword"
+                        android:fontFamily="@font/roboto_medium"
+                        />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -71,7 +74,8 @@
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_medium"/>
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <RelativeLayout
@@ -82,6 +86,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="Remember Me" />
 
                     <CheckBox
@@ -89,7 +94,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentRight="true"
-                        android:onClick="onMemberClick"
+                        android:fontFamily="@font/roboto_medium"
                         android:text="I'm Member" />
                 </RelativeLayout>
 
@@ -109,6 +114,7 @@
                         android:layout_centerInParent="true"
                         android:textColor="#fff"
                         android:textSize="18sp"
+                        android:fontFamily="@font/roboto_medium"
                         android:textStyle="bold"
                         android:visibility="visible" />
 
@@ -129,6 +135,7 @@
                     android:layout_marginTop="12dp"
                     android:layout_marginBottom="4dp"
                     android:text="Forget Password?"
+                    android:fontFamily="@font/roboto_medium"
                     android:textColor="@color/colorPrimary"
                     android:textSize="16sp" />
 
